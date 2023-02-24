@@ -6,15 +6,13 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: "Jost", sans-serif;
-    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to bottom, #0f0c29, #595396, #151520);
   }
   .main {
     width: 350px;
     height: 500px;
-    background: red;
     overflow: hidden;
-    background: url("https://img.freepik.com/photos-gratuite/illustration-conception-arriere-plan-vertical-abstrait-lignes-croisement-couleur-violette_181624-43161.jpg?w=740&t=st=1676633845~exp=1676634445~hmac=b784bf68a93ec68b04c5b98d9f4f40d3863a759fa812f5548280501d70f141fd")
-      no-repeat center/ cover;
+    background: linear-gradient(to bottom, #35305c, #3a3664, #151520);
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
   }
@@ -39,7 +37,7 @@ body {
   }
   input {
     width: 60%;
-    height: 20px;
+    height: 30px;
     background: #e0dede;
     justify-content: center;
     display: flex;

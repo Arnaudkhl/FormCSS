@@ -1,20 +1,28 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Inclusion de la bibliothèque jQuery -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
      crossorigin="anonymous">
-     <link rel="stylesheet" href="style.css">
+    <!-- Inclusion de la feuille de style externe -->
+    <link rel="stylesheet" href="style.css">
     <title>formulaire css</title>
 </head>
+
 <body>
     <div class="main">
+        <!-- Utilisation d'un checkbox comme interrupteur -->
         <input type="checkbox" id="chk" aria-hidden="true">
     
+        <!-- Formulaire d'inscription -->
         <div class="signup">
             <form>
+                <!-- Le label permet de déclencher le basculement entre les formulaires d'inscription et de connexion -->
                 <label for="chk" aria-hidden="true">Sign up</label>
                 <input type="text" name="txt" placeholder="User name" required="">
                 <input type="email" name="email" placeholder="Email" required="">
@@ -23,8 +31,10 @@
             </form>
         </div>
     
+        <!-- Formulaire de connexion -->
         <div class="login">
             <form>
+                <!-- Le label permet de déclencher le basculement entre les formulaires d'inscription et de connexion -->
                 <label for="chk" aria-hidden="true">Login</label>
                 <input type="email" name="email" placeholder="Email" required="">
                 <input type="password" name="pswd" placeholder="Password" required="">
@@ -33,4 +43,5 @@
         </div>
     </div>
 </body>
+
 </html>
